@@ -4,7 +4,7 @@
 
 STL 是 Standard Template Library 的简称，中文名为标准模板库。它是 C++ 的一大特色，里面包含了许多标准算法或数据结构。
 
-在 C++ 标准中，STL 被组织为下面的 13 个头文件： `<algorithm>` , `<deque>` , `<functional>` , `<iterator>` , `<array>` , `<vector>` , `<list>` , `<forward_list>` , `<map>` , `<unordered_map>` , `<memory>` , `<numeric>` , `<set>` , `<unordered_set>` , `<stack>` , `<utility>` 。
+在 C++ 标准中，STL 被组织为下面的 13 个头文件： `<algorithm>` , `<deque>` , `<functional>` , `<iterator>` , `<array>` , `<vector>` , `<list>` , `<forward_list>` , `<>` , `<unordered_>` , `<memory>` , `<numeric>` , `<set>` , `<unordered_set>` , `<stack>` , `<utility>` 。
 
 ## 数据结构
 
@@ -30,9 +30,9 @@ STL 是 Standard Template Library 的简称，中文名为标准模板库。它�
 
  **多重集合** (multiset) 允许存在两个次序相等的元素的集合。
 
- **映射** (map) 由 {键，值} 对组成的集合，以某种作用于键对上的谓词排列。
+ **映射** (map) 由{键、值}对组成的集合，以某种作用于键对上的谓词排列。
 
- **多重映射** (multimap) 允许键对有相等的次序的映射。
+ **多重映射** (multi) 允许键对有相等的次序的映射。
 
 ## 算法
 
@@ -44,9 +44,3 @@ STL 提供了大约 100 个实现算法的模版函数，基本都包含在 `<al
 -    `reverse` ：翻转数组、字符串。 `reverse(v.begin(), v.end())` 或 `reverse(a + begin, a + end)` 。
 -    `nth_element` ：按指定范围进行分类，即找出序列中第 $n$ 大的元素，使其左边均为小于它的数，右边均为大于它的数。 `nth_element(v.begin(), v.begin() + mid, v.end(), cmp)` 或 `nth_element(a + begin, a + begin + mid, a + end, cmp)` 。
 -    `random_shuffle` ：随机地打乱数组。 `random_shuffle(v.begin(), v.end())` 或 `random_shuffle(v + begin, v + end)` 。
-
-## 参考
-
-<https://en.cppreference.com/w/>
-
-<http://www.cplusplus.com/reference/>
