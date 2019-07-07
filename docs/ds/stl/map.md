@@ -30,8 +30,12 @@ map<string, int> mp
 3.  初始化（C++11 及以上）和数组差不多：
 
 ```cpp
-map<string, int> mp = {{"Tom", 0}, {"Bob", "100"}, {"Alan", 100}};
+map<string, int> mp = {
+{"Tom", 0}, 
+{"Bob", "100"},
+{"Alan", 100}
 ```
+}；
 
 -    `map` 查找删除元素
 
