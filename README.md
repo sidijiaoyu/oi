@@ -131,3 +131,4 @@ python2 -m SimpleHTTPServer
 <img src='https://i.loli.net/2018/12/07/5c0a6e4c31b30.png' alt='QVQNetWork' width=233>
 
 鸣谢 QVQNetwork 赞助的服务器。
+~Current Version:1.4~
